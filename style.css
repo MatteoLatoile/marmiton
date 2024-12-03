@@ -22,6 +22,7 @@ body{
 }
 a{
     text-decoration: none;
+    color: #000000;
 }
 .listNone{
     list-style: none;
@@ -36,6 +37,65 @@ a{
 }
 .alignItem{
     align-items: center;
+}
+/*header*/
+.search{
+    width: 100%;
+    max-width: 300px;
+    height: 34px;
+    background: #bdbdbd;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+.search input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    color: #FF6F61;
+}
+.btnConnexion{
+    color: #fff;
+    font-size: 12px;
+    background-color: #FF6F61;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 4px;
+}
+.btnLivre{
+    border: solid 2px #FF6F61;
+    color: #FF6F61;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.search button img{
+    width: 14px;
+}
+.search button{
+    border: 0;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    background-color: #FF6F61;
+    cursor: pointer;
+}
+.secondNav{
+    background-color:#F6F6F6;
+    color: #fff;
+
+}
+.logo{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    color: #FF6F61;
+}
+.bigHeader{
+    background-color: #fff;
+    padding: 10px 40px;
 }
 /*cart*/
 .borderDiv{
@@ -82,3 +142,33 @@ height: 100%;
     font-weight: 500;
     font-size: 12px;
 }
+.spaceAround{
+    justify-content: space-around;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+.spaceAround li :hover{
+ color: #FF6F61;
+ transition: 0.3s;
+}
+.fixed{
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+
+}
+label {
+    display: block;
+    font:
+      1rem 'Fira Sans',
+      sans-serif;
+  }
+  
+  input,
+  label {
+    margin: 0.4rem 0;
+  }
+
