@@ -15,12 +15,15 @@
             <h2 class="logo">TICHEF.</h2>
 
             <form action="" class="search">
-                <input type="text" placeholder="search anything" name="q">
+                
                 <button type="submit"><img src="assets/images/search.png" alt=""></button>
+                <label for="name" class="label">Je cherche</label>
+                <input type="text" placeholder="une recette, une idée, un conseil ..." name="q">
+                
             </form>
             <div class="flex">
-                <a href="" class="btnConnexion">Connexion</a>
-                <a href="" class="btnLivre">Mon livre de recette</a>
+                <a href="" class="btnConnexion"><i class="fa-solid fa-user iconUser"></i>Connexion</a>
+                <a href="" class="btnLivre"><i class="fa-solid fa-star iconStar"></i>Mon livre de recette</a>
             </div>
         </div>
         <nav class="secondNav ">
@@ -34,6 +37,7 @@
     </header>
     <main class="container">
         <section id="containerCard">
+            <div class="marginMain"></div>
             <h2>Recettes</h2>
             <!--  
             <div class="marginCard borderDiv">
